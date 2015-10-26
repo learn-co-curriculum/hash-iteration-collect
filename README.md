@@ -41,3 +41,19 @@ end
 ```
 
 Note that the return value is an *array* of the values we collected. 
+
+## Advanced Example
+
+You might have noticed that our previous example didn't operate on the data we were collecting. Let's step it up a level. In this example, we'll iterate over the `birthday_kids` hash using `#collect` and return the age of each child, in dog years:
+
+```ruby
+birthday_kids.collect do |name, age|
+	age * 7
+end
+```
+
+In this case, we are multiplying the value of each `age` by `7` and collecting the return values of that multiplication into a new array. The above method call would return:
+
+```ruby
+[63, 42, 189]
+```
