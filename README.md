@@ -2,7 +2,7 @@
 
 ## Overview
 
-We'll use use `#collect` to iterate over a hash. 
+We'll use `#collect` to iterate over a hash. 
 
 ## Objectives
 
