@@ -1,14 +1,19 @@
 # Hash Iteration with `#collect`
 
+## Overview
+
+We'll use use `#collect` to iterate over a hash. 
+
 ## Objectives
 
-1. Learn how to use `#collect` to iterate over a hash. 
+1. Identify when `#collect` is most often used when iterating over hashes.
+2. Give examples of using `#collect` to iterate over a hash.
 
 ## Using `#collect`
 
 We use `#collect` to iterate over a collection of data, such as an array or a hash, and return a collection of the data therein. 
 
-We have seen it used with arrays to iterate over an array, operate on the data contained there and return a collection of this altered data. 
+We have seen it used with arrays to iterate over an array, operate on the data it contains, and return a collection with this altered data. 
 
 When working with hashes, we'll most often see `#collect` used to collect the values of the hash's keys and/or collect data that we've operated on over the course of an iteration. 
 
