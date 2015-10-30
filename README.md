@@ -38,11 +38,17 @@ birthday_kids = {
 Our managers have asked us to give them the list of ages of the birthday kids so they know how many candles to buy for the birthday cakes. Let's iterate over the `birthday_kids` hash and collect the ages.
 
 ```ruby
+birthday_kids = {
+	"Timmy" => 9, 
+	"Sarah" => 6, 
+	"Amanda" => 27
+}
+
 birthday_kids.collect do |kids_name, age|
 	age
 end
 
-=> [9, 6, 27]
+# => [9, 6, 27]
 ```
 
 Note that the return value is an *array* of the values we collected. 
