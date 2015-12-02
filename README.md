@@ -68,3 +68,5 @@ In this case, we are multiplying the value of each `age` by `7` and collecting t
 ```ruby
 [63, 42, 189]
 ```
+
+<a href='https://learn.co/lessons/hash-iteration-collect' data-visibility='hidden'>View this lesson on Learn.co</a>
