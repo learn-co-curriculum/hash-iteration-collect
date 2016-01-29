@@ -69,4 +69,4 @@ In this case, we are multiplying the value of each `age` by `7` and collecting t
 [63, 42, 189]
 ```
 
-<a href='https://learn.co/lessons/hash-iteration-collect' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hash-iteration-collect' title='Hash Iteration with #collect'>Hash Iteration with #collect</a> on Learn.co and start learning to code for free.</p>
