@@ -11,6 +11,8 @@ We'll use `#collect` to iterate over a hash.
 
 ## Using `#collect`
 
+*Note: `#collect` is actually and alias for `#map`. That means the two methods can be used interchangeable, and effect the same behavior*.
+
 We use `#collect` to iterate over a collection of data, such as an array or a hash, and return a collection of the data therein. 
 
 We have seen it used with arrays to iterate over an array, operate on the data it contains, and return a collection with this altered data. 
