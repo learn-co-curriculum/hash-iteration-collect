@@ -11,7 +11,7 @@ We'll use `#collect` to iterate over a hash.
 
 ## Using `#collect`
 
-*Note: `#collect` is actually and alias for `#map`. That means the two methods can be used interchangeable, and effect the same behavior*.
+*Note: `#collect` is actually an alias for `#map`. That means the two methods can be used interchangeably, and effect the same behavior*.
 
 We use `#collect` to iterate over a collection of data, such as an array or a hash, and return a collection of the data therein. 
 
@@ -25,7 +25,7 @@ Let's take a look at an example.
 
 Let's use `#collect` to return all of the values of the keys in a given hash.
 
-In this example, we are the managers at Chucky Cheese. Chucky Cheese is a great place to have a birthday party, and there are several birthdays going on here today. 
+In this example, we are once again the managers at Chuck E. Cheese's. Chuck E. Cheese's is still a great place to have a birthday party, and, shockingly, the same three birthdays are still going on.
 
 We will be operating on the following hash that tracks birthday kids and their associated ages:
 
