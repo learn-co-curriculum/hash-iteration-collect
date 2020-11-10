@@ -1,4 +1,4 @@
-# Hash Iteration with `#collect`
+# Hash Iteration with `collect`
 
 ## Overview
 
